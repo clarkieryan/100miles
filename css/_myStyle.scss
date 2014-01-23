@@ -1,0 +1,158 @@
+//custom css goes here
+
+/*
+
+Contents
+================================
+
+1. Imports
+2. Navigation
+3. Pages
+4. Shared Styles
+
+================================
+
+*/
+
+// 1. Imports
+// --------------------------------------------------
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+// 2. Navigation
+// --------------------------------------------------
+
+.social {
+	background-color:#2980b9;
+	font-size:20px;
+	overflow:hidden;
+	ul {
+		list-style: none;
+		padding-top: 5px;
+		padding-bottom:5px;
+		float: right;
+		margin-bottom:0;
+		margin-right:6%; 
+		li {
+			display: inline;
+			padding-right: 10px;
+			a {
+				color: #FFF;
+			}
+		}
+	}
+}
+
+#main-nav {
+	margin-right:5%;
+	font-family: 'Pathway Gothic One';
+	
+}
+
+.navbar-default {
+	border-color: #CCC;
+}
+
+.navbar-default .navbar-nav>li>a  {
+	font-size:28px;
+	color:#000;
+}
+
+.navbar-fixed-top {
+	border-width: 0 0 5px;
+}
+
+.navbar-nav>li {
+	padding: 10px 5px;
+		-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+	&:hover {
+		background-color: #2980b9;
+		a {
+			color:#FFF;
+
+			&:hover {
+				color: #FFF;
+			}
+		}
+	}
+}
+
+.activeMenu {
+	background-color: #2980b9;
+	a {
+		color:#FFF !important;
+	}
+}
+
+.navbar-brand {
+	max-height:70px;
+	margin-left:50%;
+	padding:0;
+	img {
+		max-height: 80%;
+		margin-top: 5%;
+	}
+}
+
+header {
+	margin-top:113px;
+}
+
+// 3. Pages
+// --------------------------------------------------
+
+//Index page
+
+.cover-image {
+	background: url(../img/front-image.jpg) no-repeat center top;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #FFF;
+
+}
+
+#cover-image-text {
+	
+	position:relative;
+	top:-600px;
+	color:#FFF;
+
+	h1, h2, h3 {
+		text-align: center;
+		margin:0;
+		padding: 0;
+	}
+
+	h1 {
+		color: #34495e;
+		font-size: 1000%;
+		margin-top:20%;
+		text-decoration: underline;
+	}
+
+	h2 {
+		color: #34495e;
+		font-size: 500%;
+		margin-bottom: 20px;
+		text-decoration: underline;
+	}
+}
+
+// 4. Shared Styles
+// --------------------------------------------------
+
+h1, h2, h3, h4, {
+	font-family: 'Pathway Gothic One';
+}
