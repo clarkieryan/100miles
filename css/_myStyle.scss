@@ -191,6 +191,10 @@ header {
 	h2 {
 		font-size: 250%
 	}
+
+	img {
+		width: 100%
+	}
 }
 
 .why {
@@ -211,6 +215,7 @@ header {
 		clip-path: circle(50%,50%,40%);
 		-webkit-clip-path: circle(50%,50%,48%);
 		max-height: 160px;
+		max-width: 160px
 	}
 
 	.col-sm-3 {
@@ -242,4 +247,47 @@ h1, h2, h3, h4, {
 
 .centered {
 	text-align:center;
+}
+
+// 5. Media Queries
+// --------------------------------------------------
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+	
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.cover-image {
+		background:none;
+		background-color: #2980b9;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.cover-image {
+		background:none;
+		background-color: #2980b9;
+	}
+	#cover-image-text .button {
+		margin-top:10px;
+		margin-bottom:15px;
+	}
+	.navbar-brand {
+		margin-left:0;
+		img {
+			margin-bottom: 5%;
+		}
+	}
+
+	.hidden-phone {
+		display: none;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
 }
