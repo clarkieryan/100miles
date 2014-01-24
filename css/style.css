@@ -6380,6 +6380,9 @@ header {
   .aboutus h3 {
     margin-top: 0; }
 
+footer h4 {
+  float: right; }
+
 h1, h2, h3, h4 {
   font-family: 'Pathway Gothic One'; }
 
