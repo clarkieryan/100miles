@@ -6414,5 +6414,8 @@ h1, h2, h3, h4 {
       margin-bottom: 5%; }
 
   .hidden-phone {
-    display: none; } }
+    display: none; }
+
+  #main-nav {
+    margin-right: 0; } }
 /* Landscape phones and down */
