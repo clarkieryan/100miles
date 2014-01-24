@@ -6352,20 +6352,26 @@ header {
   padding: 20px 0;
   text-align: center; }
   #map h1, #map h2 {
-    display: inline-block;
-    padding: 20px;
-    margin-top: 30px; }
+    display: inline-block; }
   #map h1 {
     font-size: 500%; }
   #map h2 {
     font-size: 250%; }
+
+.why {
+  background-color: #3498db; }
+  .why i {
+    font-size: 2000%; }
+  .why a {
+    color: #FFF; }
 
 .aboutus {
   text-align: center; }
   .aboutus img {
     width: 100%;
     clip-path: circle(50%, 50%, 40%);
-    -webkit-clip-path: circle(50%, 50%, 40%); }
+    -webkit-clip-path: circle(50%, 50%, 40%);
+    max-height: 160px; }
   .aboutus .col-sm-3 {
     margin: 20px 0; }
   .aboutus p {
@@ -6376,3 +6382,6 @@ header {
 
 h1, h2, h3, h4 {
   font-family: 'Pathway Gothic One'; }
+
+.centered {
+  text-align: center; }

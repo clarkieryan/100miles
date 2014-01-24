@@ -182,8 +182,6 @@ header {
 
 	h1, h2 {
 		display: inline-block;
-		padding:20px;
-		margin-top: 30px;
 	}
 
 	h1 {
@@ -195,6 +193,15 @@ header {
 	}
 }
 
+.why {
+	background-color:#3498db;
+	i {
+		font-size: 2000%;
+	}
+	a {
+		color:#FFF;
+	}
+}
 
 .aboutus {
 	text-align:center;
@@ -203,6 +210,7 @@ header {
 		width: 100%;
 		clip-path: circle(50%,50%,40%);
 		-webkit-clip-path: circle(50%,50%,40%);
+		max-height: 160px;
 	}
 
 	.col-sm-3 {
@@ -223,4 +231,8 @@ header {
 
 h1, h2, h3, h4, {
 	font-family: 'Pathway Gothic One';
+}
+
+.centered {
+	text-align:center;
 }
