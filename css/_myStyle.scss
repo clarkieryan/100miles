@@ -17,6 +17,7 @@ Contents
 // 1. Imports
 // --------------------------------------------------
 @import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 // 2. Navigation
 // --------------------------------------------------
@@ -191,6 +192,30 @@ header {
 
 	h2 {
 		font-size: 250%
+	}
+}
+
+
+.aboutus {
+	text-align:center;
+	background-color: rgb(190, 85, 85);
+	img {
+		width: 100%;
+		clip-path: circle(50%,50%,40%);
+		-webkit-clip-path: circle(50%,50%,40%);
+	}
+
+	.col-sm-3 {
+		margin: 20px 0;
+	}
+
+	p {
+		color: #8d8d8d;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+
+	h3 {
+		margin-top:0; 
 	}
 }
 // 4. Shared Styles

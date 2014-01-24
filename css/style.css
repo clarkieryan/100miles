@@ -1,5 +1,6 @@
 @import url(mixins.css);
 @import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 article,
 aside,
 details,
@@ -6358,6 +6359,21 @@ header {
     font-size: 500%; }
   #map h2 {
     font-size: 250%; }
+
+.aboutus {
+  text-align: center;
+  background-color: #be5555; }
+  .aboutus img {
+    width: 100%;
+    clip-path: circle(50%, 50%, 40%);
+    -webkit-clip-path: circle(50%, 50%, 40%); }
+  .aboutus .col-sm-3 {
+    margin: 20px 0; }
+  .aboutus p {
+    color: #8d8d8d;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+  .aboutus h3 {
+    margin-top: 0; }
 
 h1, h2, h3, h4 {
   font-family: 'Pathway Gothic One'; }
