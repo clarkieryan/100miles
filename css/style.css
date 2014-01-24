@@ -6409,7 +6409,7 @@ h1, h2, h3, h4 {
     margin-bottom: 15px; }
 
   .navbar-brand {
-    margin-left: 0; }
+    margin-left: 10%; }
     .navbar-brand img {
       margin-bottom: 5%; }
 
@@ -6417,5 +6417,11 @@ h1, h2, h3, h4 {
     display: none; }
 
   #main-nav {
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .why-desc {
+    padding-bottom: 30px; }
+
+  #cover-image-text h1 {
+    margin: 0; } }
 /* Landscape phones and down */

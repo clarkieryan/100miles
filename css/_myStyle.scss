@@ -276,7 +276,7 @@ h1, h2, h3, h4, {
 		margin-bottom:15px;
 	}
 	.navbar-brand {
-		margin-left:0;
+		margin-left:10%;
 		img {
 			margin-bottom: 5%;
 		}
@@ -287,6 +287,14 @@ h1, h2, h3, h4, {
 	}
 	#main-nav {
 		margin-right: 0;
+	}
+
+	.why-desc {
+		padding-bottom:30px;
+	}
+
+	#cover-image-text h1 {
+		margin: 0;
 	}
 }
 /* Landscape phones and down */
