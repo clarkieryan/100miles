@@ -6361,8 +6361,7 @@ header {
     font-size: 250%; }
 
 .aboutus {
-  text-align: center;
-  background-color: #be5555; }
+  text-align: center; }
   .aboutus img {
     width: 100%;
     clip-path: circle(50%, 50%, 40%);
