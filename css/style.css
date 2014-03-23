@@ -6347,17 +6347,17 @@ header {
     background-color: #2ecc71;
     box-shadow: 0px 3px 0px 0px #27ae60; }
 
-#map {
+.map {
   background-color: #2ecc71;
   padding: 20px 0;
   text-align: center; }
-  #map h1, #map h2 {
+  .map h1, .map h2 {
     display: inline-block; }
-  #map h1 {
+  .map h1 {
     font-size: 500%; }
-  #map h2 {
+  .map h2 {
     font-size: 250%; }
-  #map img {
+  .map img {
     width: 100%; }
 
 .why {
@@ -6367,20 +6367,20 @@ header {
   .why a {
     color: #FFF; }
 
-.aboutus {
+.who {
   text-align: center; }
-  .aboutus img {
+  .who img {
     width: 100%;
     clip-path: circle(50%, 50%, 40%);
     -webkit-clip-path: circle(50%, 50%, 48%);
     max-height: 160px;
     max-width: 160px; }
-  .aboutus .col-sm-3 {
+  .who .col-sm-3 {
     margin: 20px 0; }
-  .aboutus p {
+  .who p {
     color: #8d8d8d;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
-  .aboutus h3 {
+  .who h3 {
     margin-top: 0; }
 
 footer h4 {
@@ -6391,6 +6391,12 @@ h1, h2, h3, h4 {
 
 .centered {
   text-align: center; }
+
+.blog .row {
+  margin-top: 20px; }
+
+.post .row {
+  margin-top: 20px; }
 
 /* Large desktop */
 /* Portrait tablet to landscape and desktop */
