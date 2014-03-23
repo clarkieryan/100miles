@@ -6394,6 +6394,8 @@ h1, h2, h3, h4 {
 
 .blog .row {
   margin-top: 20px; }
+.blog img {
+  width: 100% !important; }
 
 .post .row {
   margin-top: 20px; }
