@@ -3,12 +3,12 @@ layout: post
 title: I can also impersonate John Wayne really well….
 excerpt: So I thought I’d kick off my blog firstly on a positive note..... I can still ride a bike. YAY!!!!! (I often had doubt since I’ve not placed my bum on the seat for a few years now…), but the downside being, it was painful!! Not only have I discovered muscles that I never thought existed…I can also impersonate John Wayne really well….(hmm definitely investing in some padded shorts!!). So Sunday morning came and myself, Meeky, Leigh and Laura arrived at the scout hut
 categories: Zoe
-image: /img/blog/zoe1.png
+image: /img/blog/zoe1.jpg
 ---
 <!-- Content
     ================================================== -->
   
-![New Site](/img/blog/zoe1.png)
+![ Lets go cycling!](/img/blog/zoe1.jpg)
 
 #I can also impersonate John Wayne really well….
  
