@@ -6403,6 +6403,14 @@ h1, h2, h3, h4 {
 .post .row {
   margin-top: 20px; }
 
+.sponsors {
+  background-color: #3498db; }
+  .sponsors a {
+    color: #FFF; }
+  .sponsors i {
+    font-size: 2000%;
+    color: #FFF; }
+
 /* Large desktop */
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
