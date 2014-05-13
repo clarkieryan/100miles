@@ -6410,6 +6410,8 @@ h1, h2, h3, h4 {
   .sponsors i {
     font-size: 2000%;
     color: #FFF; }
+  .sponsors ul {
+    list-style: none; }
 
 /* Large desktop */
 /* Portrait tablet to landscape and desktop */
